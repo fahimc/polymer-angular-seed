@@ -1,0 +1,9 @@
+{
+  "name": "cm",
+  "version": "1.0.0",
+  "description": "Use this task to create a module and it will hook it up automatically. grunt cm --name=nameOfModule",
+  "dependencies": {
+  	"grunt": "^0.4.6",
+    "grunt-contrib-copy": "*"
+  }
+}

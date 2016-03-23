@@ -1,0 +1,40 @@
+<dom-module id="example-component">
+<template>
+	<style>
+		:host { 
+			display: block; 
+			width: 300px;
+			background-color: #e4e4e4;
+			font-family: sans-serif;
+		}  
+		:host div {
+			text-align: center;
+			padding: 20px;
+		};
+	</style>
+	<style include="example-component-style-theme"></style>
+	<div>Hello World</div>
+	<content></content>
+</template>
+<script type="text/javascript">
+	(function (){
+		var Component = {
+			is:"example-component",
+			ready: function () {
+				var xobj = new XMLHttpRequest();
+				xobj.overrideMimeType("application/json");
+				xobj.open('GET', this.resolveUrl('resource/example.json'), true); 
+				xobj.onreadystatechange = function () {
+					if (xobj.readyState == 4 && xobj.status == "200") {
+						console.log(xobj.responseText);
+					}
+				};
+				xobj.send(null);  
+			}
+		};
+
+		Polymer(Component);	
+	})();
+
+</script>
+</dom-module>

@@ -1,0 +1,13 @@
+<html><head><script src="components.js" defer=""></script><meta charset="UTF-8"></head><body><div hidden="" by-vulcanize=""><dom-module id="example-component-style-theme" assetpath="theme/example-component/">
+<template>
+	<style>	:host{			background-color:#f00;		}	:host div{		text-align:center;	};	</style>
+</template>
+</dom-module><dom-module id="example-component" assetpath="component/example-component/">
+<template>
+	<style>		:host{			display:block;			width:300px;			background-color:#e4e4e4;			font-family:sans-serif;		}		:host div{			text-align:center;			padding:20px;		};	</style>
+	<style include="example-component-style-theme"></style>
+	<div>Hello World</div>
+	<content></content>
+</template>
+</dom-module>
+</div></body></html>

@@ -1,0 +1,9 @@
+{
+  "name": "help",
+  "version": "1.0.0",
+  "description": "This will show all the available tasks",
+  "dependencies": {
+  	"grunt": "^0.4.6",
+    "grunt-contrib-copy": "*"
+  }
+}

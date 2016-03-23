@@ -1,0 +1,13 @@
+# Files to be ignored by ESLint.
+
+node_modules/**
+bower_components/**
+Test/report/**  
+Grunt/**  
+Dist/** 
+App/js/app.js  
+App/js/components.js  
+App/js/components.html  
+App/js/template.js  
+App/js/libs/**  
+Gruntfile.js  

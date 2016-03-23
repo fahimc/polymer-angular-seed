@@ -1,0 +1,12 @@
+{
+  "name": "serve",
+  "version": "1.0.0",
+  "description": "This will spin up a local server",
+  "dependencies": {
+  	"express": "^3.4.8",
+    "body-parser": "^1.14.2",
+    "method-override": "^2.3.5",
+    "body-parser": "^1.13.3",
+    "open": "^0.0.5"
+  }
+}

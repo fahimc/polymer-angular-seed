@@ -1,0 +1,30 @@
+{
+  "name": "angular-polymer-seed",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^3.4.8",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-open": "*",
+    "method-override": "^2.3.5",
+    "open": "^0.0.5",
+    "shelljs": "^0.6.0",
+    "grunt-contrib-connect": "v0.11.2",
+    "grunt-contrib-less": "*",
+    "grunt-angular-templates": "^1.0.3",
+    "grunt-shell-spawn": "*",
+    "fs.extra": "^1.3.2",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-eslint": "^17.1.0",
+    "eslint-plugin-html": "^1.0.2",
+    "eslint-config-google": "^0.4.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

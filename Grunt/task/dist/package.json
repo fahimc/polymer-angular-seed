@@ -1,0 +1,11 @@
+{
+  "name": "dist",
+  "version": "1.0.0",
+  "description": "This will create the distrubution package",
+  "dependencies": {
+  	"grunt": "^0.4.6",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "release",
+  "version": "1.0.0",
+  "description": "This will create the distrubution package and bump verion number",
+  "dependencies": {
+  	"grunt": "^0.4.6",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "^1.0.0"
+  }
+}

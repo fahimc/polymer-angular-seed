@@ -1,0 +1,9 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "Runs the watch task",
+  "dependencies": {
+  	"grunt": "^0.4.6",
+    "grunt-contrib-copy": "*"
+  }
+}

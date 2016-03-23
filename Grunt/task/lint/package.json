@@ -1,0 +1,10 @@
+{
+  "name": "lint",
+  "version": "1.0.0",
+  "description": "For linting your code",
+  "dependencies": {
+  	"grunt": "^0.4.6",
+    "grunt-eslint": "^17.1.0",
+    "eslint-plugin-html": "^1.0.2"
+  }
+}

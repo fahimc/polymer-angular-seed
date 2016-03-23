@@ -1,0 +1,9 @@
+{
+  "name": "angular-templates",
+  "version": "1.0.0",
+  "description": "This will concat all template files",
+  "dependencies": {
+  	"grunt": "^0.4.6",
+    "grunt-angular-templates": "^1.0.3"
+  }
+}

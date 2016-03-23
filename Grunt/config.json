@@ -1,0 +1,15 @@
+{
+	"tasks": {
+		"help": "Grunt/task/help",
+		"serve": "Grunt/task/serve",
+		"dist": "Grunt/task/dist",
+		"release": "Grunt/task/release",
+		"dev": "Grunt/task/dev",
+		"lint": "Grunt/task/lint",
+		"polymer-vulcanize": "Grunt/task/polymer-vulcanize",
+		"angular-concat": "Grunt/task/angular-concat",
+		"angular-templates": "Grunt/task/angular-templates",
+		"watch-connect": "Grunt/task/angular-watch",
+		"cm": "Grunt/task/angular-create-module"
+	}
+}

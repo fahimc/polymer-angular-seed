@@ -1,0 +1,12 @@
+{
+  "name": "angular-watch",
+  "version": "1.0.0",
+  "description": "This will watch files and reload the page",
+  "dependencies": {
+  	"grunt": "^0.4.6",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-connect": "v0.11.2",
+    "grunt-open": "^0.2.3",
+    "grunt-contrib-less":"*"
+  }
+}
