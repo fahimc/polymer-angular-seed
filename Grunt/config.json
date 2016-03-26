@@ -6,6 +6,7 @@
 		"release": "Grunt/task/release",
 		"dev": "Grunt/task/dev",
 		"lint": "Grunt/task/lint",
+		"create-component": "Grunt/task/create-component",
 		"polymer-vulcanize": "Grunt/task/polymer-vulcanize",
 		"angular-concat": "Grunt/task/angular-concat",
 		"angular-templates": "Grunt/task/angular-templates",

@@ -18,9 +18,19 @@ var Task = {
       var path = this.taskRunner.dirname + '/' + tasks[key] + '/' + this.taskRunner.CONFIG_FILE_NAME;
       if (grunt.file.exists(path)) {
         var package = require(path);
-        Logger.info('	' + package.name + '			' + package.description);
+        
+        this.createTable(package.name, package.description);
       }
     }
+  },
+  createTable: function (name, description) {
+    var padding = 30 - name.length;
+    paddingString = '';
+    for(var a = 0; a < padding; a++){
+      paddingString += ' ';
+    }
+  
+    Logger.info('    ' + name + paddingString + description);
   },
   register: function () {
     grunt.registerTask('help', this.showHelp.bind(this));
