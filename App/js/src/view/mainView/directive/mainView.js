@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mainView').directive('mainView', function ($templateCache) {
+angular.module('mainView').directive('mainView', function () {
 	return {
 		restrict: 'E',
 		replace: true,

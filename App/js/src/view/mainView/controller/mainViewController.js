@@ -2,7 +2,7 @@
 
 angular.module('mainView').controller('mainViewController',function($scope){
 
-	var Controller=
+	var Controller =
 	{
 		init:function(){
 

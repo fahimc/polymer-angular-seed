@@ -23,7 +23,7 @@ var Task = {
           dest: 'App/js/libs/libs.js'
         },
         angularSrc: {
-          src: ['App/js/src/main.js','App/js/src/module/*/*.js','!App/js/components.js', '!App/js/polymer/*.js', 'App/js/src/module/**/*.js',  'App/js/template.js'],
+          src: ['App/js/src/main.js','App/js/src/view/*/*.js','App/js/src/module/*/*.js','!App/js/components.js', '!App/js/polymer/*.js', 'App/js/src/view/**/*.js', 'App/js/src/module/**/*.js',  'App/js/template.js'],
           dest: 'App/js/app.js'
         },
         angularMainSrc: {

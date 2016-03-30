@@ -1,9 +1,10 @@
 'use strict';
 
 angular.module('app').controller('appController',function($scope,$rootScope){
-	var Controller=
+
+	var Controller =
 	{
-		init:function(){
+		init: function () {
 		}
 	};
 
