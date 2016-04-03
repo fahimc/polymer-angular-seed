@@ -6,6 +6,7 @@
   	"grunt": "^0.4.6",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-contrib-connect": "v0.11.2",
+    "grunt-concurrent": "~2.2.1",
     "grunt-open": "^0.2.3",
     "grunt-contrib-less":"*"
   }

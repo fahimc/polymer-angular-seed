@@ -10,8 +10,8 @@ var Task = {
     return {
       ngtemplates: {
         "app": {
-          cwd: 'App/js/src/module',
-          src: ['**/*.html'],
+          cwd: 'App/js/src',
+          src: ['**/**/template/*.html'],
           dest: 'App/js/template.js',
           options: {
             htmlmin: {

@@ -5,6 +5,7 @@
 		"dist": "Grunt/task/dist",
 		"release": "Grunt/task/release",
 		"dev": "Grunt/task/dev",
+		"dev-server": "Grunt/task/dev-server",
 		"lint": "Grunt/task/lint",
 		"create-component": "Grunt/task/create-component",
 		"polymer-vulcanize": "Grunt/task/polymer-vulcanize",

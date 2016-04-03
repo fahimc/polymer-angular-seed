@@ -1,0 +1,9 @@
+{
+  "name": "dev-server",
+  "version": "1.0.0",
+  "description": "This launches the local node server",
+  "dependencies": {
+  	"grunt": "^0.4.6",
+    "grunt-shell-spawn": "*"
+  }
+}

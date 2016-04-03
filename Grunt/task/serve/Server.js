@@ -25,6 +25,7 @@ var Server = {
     app.use(bodyParser.json());
     app.use(express.directory(config.directory));
     app.use(express.static(config.directory));
+    app.use(require('connect-livereload')());
   },
   getPortNumber: function () {
     return config.serverPort += 100;

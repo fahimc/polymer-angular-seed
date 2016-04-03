@@ -6,7 +6,6 @@ var Task = {
   init: function (_grunt, _taskRunner) {
     grunt = _grunt;
     this.taskRunner = _taskRunner;
-    console.log( path.join(Task.taskRunner.dirname,'Grunt/task/lint/resource/.eslintrc'));
   },
   getConfig: function () {
     return {

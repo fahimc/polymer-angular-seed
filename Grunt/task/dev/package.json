@@ -4,6 +4,7 @@
   "description": "Runs the watch task",
   "dependencies": {
   	"grunt": "^0.4.6",
-    "grunt-contrib-copy": "*"
+    "grunt-contrib-copy": "*",
+    "grunt-concurrent": "~2.2.1"
   }
 }

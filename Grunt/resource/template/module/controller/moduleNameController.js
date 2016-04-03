@@ -4,7 +4,7 @@ angular.module('moduleName').controller('moduleNameController',function($scope){
 
 	var Controller =
 	{
-		init:function(){
+		init:function () {
 
 		}
 	};

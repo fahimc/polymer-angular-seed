@@ -18,7 +18,9 @@ var Task = {
           options: {
             port: 9000,
             hostname: "localhost",
-            livereload: true
+            livereload: true,
+            onCreateServer: function(server, connect, options) {
+            }
           }
         }
       },
@@ -68,12 +70,13 @@ var Task = {
             interrupt: false,
             livereload: true,
           }
-        },
+        }
       }
     }
   },
   register: function () {
-    grunt.registerTask('angular-watch', ['open:all', 'connect:all', 'watch']);
+    // grunt.registerTask('angular-watch', ['open:all', 'connect:all', 'watch']);
+    grunt.registerTask('angular-watch', ['watch']);
   }
 };
 

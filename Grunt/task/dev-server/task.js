@@ -8,19 +8,16 @@ var Task = {
   },
   getConfig: function () {
     return {
-     concurrent: {
-      dev: {
-        tasks:  ['angular-watch', 'dev-server']
-      },
-      options: {
-        logConcurrentOutput: true
-      }
+
     }
+  },
+  startServer: function () {
+    cd(this.taskRunner.dirname);
+    exec('node Server/Server.js -environment=development');
+  },
+  register: function () {
+    grunt.registerTask('dev-server', this.startServer.bind(this));
   }
-},
-register: function () {
-  grunt.registerTask('dev', ['polymer-vulcanize','angular-concat','concurrent']);
-}
 };
 
 module.exports = Task;
