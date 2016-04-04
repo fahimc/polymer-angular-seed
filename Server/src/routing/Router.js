@@ -12,7 +12,7 @@ var Router = {
 		this.addEnvironmentRoutes();
 	},
 	addEnvironmentRoutes: function () {
-		var environmentRouter = require(path.resolve('Server/src/routing/' + this.environment + '.js'));
+		var environmentRouter = require(path.resolve('Server/src/routing/' + this.environment  + '/' + this.environment + '.js'));
 		var routes = environmentRouter.route(app);
 		app.use('/',routes);
 	}
