@@ -5,6 +5,8 @@ var open = require('open');
 var net = require('net');
 var methodOverride = require('method-override');
 var bodyParser = require('body-parser');
+var compression = require('compression');
+var serveIndex = require('serve-index');
 var app = express();
 var config = {
   serverPort: 8999,
@@ -17,13 +19,13 @@ var Server = {
     this.findFreePort();
   },
   setup: function () {
-    app.use(express.compress());
+    app.use(compression());
     app.use(methodOverride('X-HTTP-Method-Override'));
     app.use(bodyParser.urlencoded({
       extended: false
     }));
     app.use(bodyParser.json());
-    app.use(express.directory(config.directory));
+    app.use(serveIndex(config.directory));
     app.use(express.static(config.directory));
     app.use(require('connect-livereload')());
   },

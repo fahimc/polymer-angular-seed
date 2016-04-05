@@ -19,7 +19,7 @@ var Task = {
   }
 },
 register: function () {
-  grunt.registerTask('dev', ['polymer-vulcanize','angular-concat','concurrent']);
+  grunt.registerTask('dev', ['polymer-vulcanize','angular-templates','angular-concat','concurrent']);
 }
 };
 

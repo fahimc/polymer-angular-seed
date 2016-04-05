@@ -12,6 +12,7 @@
 		"angular-concat": "Grunt/task/angular-concat",
 		"angular-templates": "Grunt/task/angular-templates",
 		"watch-connect": "Grunt/task/angular-watch",
-		"cm": "Grunt/task/angular-create-module"
+		"cm": "Grunt/task/angular-create-module",
+		"cv": "Grunt/task/angular-create-view"
 	}
 }
