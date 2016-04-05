@@ -1,4 +1,4 @@
-# corp-polymer-ng  
+# Seed 
 
 # Prerequisites 
 
