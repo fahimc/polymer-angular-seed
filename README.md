@@ -24,7 +24,9 @@ The boilerplate comes with unique grunt tasks to create new angular modules whic
 ## Installation 
 
 ```
-npm install -g polybuild
+npm install -g bower  
+npm install -g grunt-cli  
+npm install -g polybuild  
 npm install
 bower install
 grunt install
